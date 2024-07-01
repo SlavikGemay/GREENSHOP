@@ -1,64 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="ua" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div style="text-align: right">
-    <a href="#">
-        <img src="img/x.png" alt="opps(">
-    </a>
+<div class="modal">
+
+        <a href="#"> <img src="img/x.png" alt="opps("> </a>
+
+    <div class="link">
+        <a href="#">Login</a>
+            <span> I </span>
+        <a href="">Register</a>
+    </div>
+
+    <p class="text">Enter your email and password to register</p>
+
+    <form name="register" method="post" action="">
+    <div>
+        <input class="box" type ="text" name="name" placeholder="Username">
+    </div>
+    <div>
+        <input class="box" type="email" name="email" placeholder="Enter your email address">
+    </div>
+
+    <div>
+        <input class="box" type="password" name="password" placeholder="Password">
+    </div>
+
+    <div>
+        <input class="box" type="password" name="password" placeholder="Confirm Password">
+    </div>
+
+    <div class="btn">
+        <button type="submit">Register</button>
+    </div>
+    </form>
+
+    <p class="with">Or register with</p>
+
+    <div class="inet">
+        <img class="picinet" src="img/google.png" alt="google">
+        <a target="_blank" href="www.google.com">Continue with Google</a>
+    </div>
+    <div class="inet">
+        <img class="picinet" src="img/fb.png" alt="facebook">
+        <a target="_blank" href="www.facebook.com">Continue with Facebook</a>
+    </div>
 </div>
-<h1 style="text-align: center">
-    <span style="color: black">Login</span>
-    |
-    <span style="color: green">Register</span>
-</h1>
-<p  style="text-align: center">
-    Enter your email and password to register
-</p>
-<form name="register" method="post" action="">
-    <div style="text-align: center">
-        <input type="text" name="name" placeholder="Username">
-    </div>
-    <div style="text-align: center">
-        <p>
-            <input type="email" name="email" placeholder="Enter your email address">
-        </p>
-    </div>
-    <div style="text-align: center">
-        <p>
-            <input type="password" name="password" placeholder="Password">
-        </p>
-    </div>
-    <div style="text-align: center">
-        <p>
-            <input type="password" name="password" placeholder="Confirm Password">
-        </p>
-    </div>
-    <div style="text-align: center">
-        <button style="background: green" type="submit">
-            Register
-        </button>
-    </div>
-</form>
-<p  style="text-align: center">
-    Or register with
-</p>
-<div style="text-align: center">
-    <img src="img/google.png" alt="">
-    <a target="_blank" href="www.google.com">
-        Continue with Google
-    </a>
-</div>
-<img src="img/fb.png" alt="">
-<a target="_blank" href="www.facebook.com">
-    Continue with Facebook
-</a>
 </body>
 </html>
