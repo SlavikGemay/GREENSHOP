@@ -1,78 +1,192 @@
-
-.modal {
-    max-width: 500px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal{
+    max-width: 520px;
     margin: auto;
     padding-top: 52px;
-
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 10px #46a358;
 }
-
-img{
-    width: 18px;
-    height: 18px;
+.modal .link{
+    text-align: center;
+    padding-bottom: 40px;
 }
-
-.link a{
+.modal .link a{
     font-weight: 500;
     font-size: 20px;
     line-height: 80%;
     color: #3d3d3d;
     text-decoration: none;
 }
-.link a:last-of-type{
-    color: green;
+.modal .link a:last-of-type{
+    color: #46a358;
 }
-
-.link span{
+.modal .link span{
     font-weight: 250;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
-    margin: 0 12px;
+    margin: 0 11px;
 }
-
 .text{
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 12px;
+}
+.form .box{
+    width: 300px;
+    height: 40px;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 123%;
-    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    padding: 12px 14px;
+    margin-bottom: 16px;
 }
 
-.box{
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-}
-
-
-
-.inet{
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-}
-
-.btn{
-    border-radius: 5px;
+.form .btn{
     width: 300px;
     height: 45px;
     background: #46a358;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 13px;
+    text-align: center;
+    margin-bottom: 36px;
 }
-
 .with{
     font-weight: 400;
     font-size: 13px;
     line-height: 123%;
     color: #3d3d3d;
     text-align: center;
+    margin-bottom: 27px;
+}
+.social{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #727272;
+}
+.modal .social .picinet{
+    margin-right: 9px;
 }
 
-button{
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    padding-top: 31px;
+    padding-bottom: 12px;
+}
+.login_btn{
+    border-radius: 6px;
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 7px 17px;
+}
+.login_btn img{
+    margin-right: 4px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header .home{
     font-weight: 700;
     font-size: 16px;
-    line-height: 100%;
-    color: #fff;
-    margin: 13px 118px;
+    color: #3d3d3d;
+    margin-right: 50px;
 }
-
+.home:hover{
+    color: orange;
+}
+header .shop, .plantcare, .blogs{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    margin-right: 50px;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+main .welcome{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    padding-top: 68px;
+    padding-left: 31px;
+    padding-bottom: 7 px;
+}
+main .planet{
+    max-width: 530px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 5px;
+}
+main span{
+    color: #46a358;
+}
+main .urban{
+    max-width: 557px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+main .shop{
+    border-radius: 6px;
+    background: #46a358;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 85px;
+}
