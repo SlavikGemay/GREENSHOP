@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz6">
-      <change afterPath="$PROJECT_DIR$/fonts/ceraroundprodemo-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ceraroundprodemo-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ceraroundprodemo-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ceraroundprodemo-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ceraroundprodemo-regular-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +101,7 @@
       <workItem from="1720123478799" duration="7070000" />
       <workItem from="1720196135957" duration="1219000" />
       <workItem from="1720200417731" duration="2694000" />
-      <workItem from="1720263556167" duration="1278000" />
+      <workItem from="1720263556167" duration="7240000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -131,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720129764912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add dz6">
+      <option name="closed" value="true" />
+      <created>1720265612604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720265612604</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
