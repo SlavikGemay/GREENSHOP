@@ -17,15 +17,12 @@
 .modal{
     max-width: 520px;
     margin: auto;
-    padding-top: 52px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 52px 100px 40px 100px;
     border-bottom: solid 10px #46a358;
 }
 .modal .link{
     text-align: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 .modal .link a{
     font-weight: 500;
@@ -45,7 +42,7 @@
     margin: 0 11px;
 }
 .text{
-    padding-bottom: 14px;
+    margin-bottom: 14px;
     font-weight: 400;
     font-size: 13px;
     line-height: 123%;
@@ -54,11 +51,16 @@
 .form .box{
     width: 300px;
     height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
     color: #a5a5a5;
+
     padding: 12px 14px;
+
     margin-bottom: 16px;
 }
 .form input:last-of-type{
@@ -106,8 +108,10 @@
     margin-right: 9px;
 }
 
-
-
+.social.twoa{
+    margin-bottom: 15px;
+}
+-----------------------------
 .container{
     max-width: 1200px;
     margin: auto;
@@ -122,6 +126,7 @@ header{
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+    text-decoration: none;
 
     display: inline-flex;
     justify-content: center;
@@ -159,7 +164,6 @@ header .shop, .plantcare, .blogs{
     margin-right: 50px;
     text-decoration: none;
 }
-
 main{
     max-width: 1200px;
     margin: auto;
@@ -172,7 +176,6 @@ main .welcome{
     text-transform: uppercase;
     color: #3d3d3d;
     padding-top: 68px;
-    padding-left: 31px;
     padding-bottom: 7px;
 }
 main .planet{
@@ -211,3 +214,4 @@ main .shop{
     height: 40px;
     margin-bottom: 85px;
 }
+
