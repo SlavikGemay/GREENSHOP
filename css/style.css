@@ -111,8 +111,10 @@
 .social.twoa{
     margin-bottom: 15px;
 }
------------------------------
-.container{
+
+
+
+header .container{
     max-width: 1200px;
     margin: auto;
 }
@@ -133,6 +135,7 @@ header{
     align-items: center;
 
     padding: 7px 17px;
+    font-family: 'cera_round_pro_demoregular';
 }
 .login_btn img{
     margin-right: 4px;
@@ -141,6 +144,8 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 header ul{
     display: flex;
@@ -154,7 +159,7 @@ header .home{
     margin-right: 50px;
     text-decoration: none;
 }
-.home:hover{
+header .home:hover{
     color: orange;
 }
 header .shop, .plantcare, .blogs{
@@ -164,11 +169,12 @@ header .shop, .plantcare, .blogs{
     margin-right: 50px;
     text-decoration: none;
 }
+
 main{
     max-width: 1200px;
     margin: auto;
 }
-main .welcome{
+main .banner .welcome{
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -178,7 +184,7 @@ main .welcome{
     padding-top: 68px;
     padding-bottom: 7px;
 }
-main .planet{
+main .banner .planet{
     max-width: 530px;
     font-weight: 900;
     font-size: 70px;
@@ -190,7 +196,7 @@ main .planet{
 main span{
     color: #46a358;
 }
-main .urban{
+main .banner .urban{
     max-width: 557px;
     font-weight: 400;
     font-size: 14px;
@@ -198,12 +204,14 @@ main .urban{
     color: #727272;
     margin-bottom: 44px;
 }
-main .shop{
+main .banner .shop{
     border-radius: 6px;
     background: #46a358;
+
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -214,4 +222,73 @@ main .shop{
     height: 40px;
     margin-bottom: 85px;
 }
+main .banner .container{
+    display: inline-flex;
+    box-sizing: border-box ;
+    padding-left: 43px;
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+main .banner .big{
+    max-width: 507px;
+}
+main .banner .small{
+    width: 135px;
+}
 
+
+/*main .product .container{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.product .menu{
+    max-width: 310px;
+    background: #fbfbfb;
+}
+.product .menu .categories{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 14px 18px;
+    margin-bottom: 7px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .menu .houseplants{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    color: #46a358;
+    text-decoration: none;
+}
+.product .menu a{
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 267%;
+    text-decoration: none;
+    padding: 37px 30px;
+    margin-bottom: 377px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .menu .supersale{
+    max-width: 310px;
+    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
+}
+.product .menu .super{
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 100%;
+    color: #46a358;
+    text-align: center;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .menu .up{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 70%;
+    text-align: center;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular';
+
+}
