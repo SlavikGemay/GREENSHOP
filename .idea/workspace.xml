@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz4">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_06_2024_14_43_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_06_2024_14_43__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/01 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Super Sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 12.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +114,9 @@
       <workItem from="1720366036525" duration="5282000" />
       <workItem from="1720371404432" duration="714000" />
       <workItem from="1720450974416" duration="3176000" />
-      <workItem from="1720465083341" duration="8577000" />
+      <workItem from="1720465083341" duration="8901000" />
+      <workItem from="1720537027150" duration="6299000" />
+      <workItem from="1720630754978" duration="6122000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -160,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720352184268</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add dz7">
+      <option name="closed" value="true" />
+      <created>1720474447317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720474447317</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +185,8 @@
     <MESSAGE value="add css" />
     <MESSAGE value="add dz6" />
     <MESSAGE value="add dz4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dz4" />
+    <MESSAGE value="add dz7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dz7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
