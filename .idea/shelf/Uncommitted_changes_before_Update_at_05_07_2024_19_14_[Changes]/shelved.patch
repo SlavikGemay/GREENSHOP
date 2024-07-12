@@ -1,0 +1,240 @@
+Index: Registration.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"ua\" xmlns=\"http://www.w3.org/1999/html\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Register</title>\r\n    <link rel=\"stylesheet\" href=\"css/normalize.css\">\r\n    <link rel=\"stylesheet\" href=\"css/reset.css\">\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n</head>\r\n<body>\r\n<div class=\"modal\">\r\n\r\n        <a href=\"#\"> <img src=\"img/x.png\" alt=\"opps(\"> </a>\r\n\r\n    <div class=\"link\">\r\n        <a href=\"#\">Login</a>\r\n            <span> I </span>\r\n        <a href=\"\">Register</a>\r\n    </div>\r\n\r\n    <p class=\"text\">Enter your email and password to register</p>\r\n\r\n    <form name=\"register\" method=\"post\" action=\"\">\r\n    <div>\r\n        <input class=\"box\" type =\"text\" name=\"name\" placeholder=\"Username\">\r\n    </div>\r\n    <div>\r\n        <input class=\"box\" type=\"email\" name=\"email\" placeholder=\"Enter your email address\">\r\n    </div>\r\n\r\n    <div>\r\n        <input class=\"box\" type=\"password\" name=\"password\" placeholder=\"Password\">\r\n    </div>\r\n\r\n    <div>\r\n        <input class=\"box\" type=\"password\" name=\"password\" placeholder=\"Confirm Password\">\r\n    </div>\r\n\r\n    <div class=\"btn\">\r\n        <button type=\"submit\">Register</button>\r\n    </div>\r\n    </form>\r\n\r\n    <p class=\"with\">Or register with</p>\r\n\r\n    <div class=\"inet\">\r\n        <img class=\"picinet\" src=\"img/google.png\" alt=\"google\">\r\n        <a target=\"_blank\" href=\"www.google.com\">Continue with Google</a>\r\n    </div>\r\n    <div class=\"inet\">\r\n        <img class=\"picinet\" src=\"img/fb.png\" alt=\"facebook\">\r\n        <a target=\"_blank\" href=\"www.facebook.com\">Continue with Facebook</a>\r\n    </div>\r\n</div>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Registration.html b/Registration.html
+--- a/Registration.html	(revision 7b03581680d8ffaccaff6fe6ca6a718184a0261b)
++++ b/Registration.html	(date 1720112691931)
+@@ -23,7 +23,7 @@
+ 
+     <p class="text">Enter your email and password to register</p>
+ 
+-    <form name="register" method="post" action="">
++    <form class="form" name="register" method="post" action="">
+     <div>
+         <input class="box" type ="text" name="name" placeholder="Username">
+     </div>
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n.modal {\r\n    max-width: 500px;\r\n    margin: auto;\r\n    padding-top: 52px;\r\n\r\n}\r\n\r\nimg{\r\n    width: 18px;\r\n    height: 18px;\r\n}\r\n\r\n.link a{\r\n    font-weight: 500;\r\n    font-size: 20px;\r\n    line-height: 80%;\r\n    color: #3d3d3d;\r\n    text-decoration: none;\r\n}\r\n.link a:last-of-type{\r\n    color: green;\r\n}\r\n\r\n.link span{\r\n    font-weight: 250;\r\n    font-size: 18px;\r\n    line-height: 89%;\r\n    color: #3d3d3d;\r\n    margin: 0 12px;\r\n}\r\n\r\n.text{\r\n    font-weight: 400;\r\n    font-size: 13px;\r\n    line-height: 123%;\r\n    color: #3d3d3d;\r\n}\r\n\r\n.box{\r\n    border: 1px solid #eaeaea;\r\n    border-radius: 5px;\r\n    width: 300px;\r\n    height: 40px;\r\n}\r\n\r\n\r\n\r\n.inet{\r\n    border: 1px solid #eaeaea;\r\n    border-radius: 5px;\r\n    width: 300px;\r\n    height: 40px;\r\n}\r\n\r\n.btn{\r\n    border-radius: 5px;\r\n    width: 300px;\r\n    height: 45px;\r\n    background: #46a358;\r\n}\r\n\r\n.with{\r\n    font-weight: 400;\r\n    font-size: 13px;\r\n    line-height: 123%;\r\n    color: #3d3d3d;\r\n    text-align: center;\r\n}\r\n\r\nbutton{\r\n    font-weight: 700;\r\n    font-size: 16px;\r\n    line-height: 100%;\r\n    color: #fff;\r\n    margin: 13px 118px;\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/style.css b/css/style.css
+--- a/css/style.css	(revision 7b03581680d8ffaccaff6fe6ca6a718184a0261b)
++++ b/css/style.css	(date 1720123380376)
+@@ -1,78 +1,92 @@
+-
+-.modal {
+-    max-width: 500px;
++*{
++    padding: 0;
++    margin: 0;
++    box-sizing: border-box;
++}
++.modal{
++    max-width: 520px;
+     margin: auto;
+     padding-top: 52px;
+-
++    padding-bottom: 40px;
++    padding-left: 100px;
++    padding-right: 100px;
++    border-bottom: solid 10px #46a358;
+ }
+-
+-img{
+-    width: 18px;
+-    height: 18px;
++.modal .link{
++    text-align: center;
++    padding-bottom: 40px;
+ }
+-
+-.link a{
++.modal .link a{
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 80%;
+     color: #3d3d3d;
+     text-decoration: none;
+ }
+-.link a:last-of-type{
+-    color: green;
++.modal .link a:last-of-type{
++    color: #46a358;
+ }
+-
+-.link span{
+-    font-weight: 250;
+-    font-size: 18px;
+-    line-height: 89%;
+-    color: #3d3d3d;
+-    margin: 0 12px;
+-}
+-
+-.text{
+-    font-weight: 400;
+-    font-size: 13px;
+-    line-height: 123%;
+-    color: #3d3d3d;
+-}
+-
+-.box{
+-    border: 1px solid #eaeaea;
+-    border-radius: 5px;
+-    width: 300px;
+-    height: 40px;
+-}
+-
+-
+-
+-.inet{
+-    border: 1px solid #eaeaea;
+-    border-radius: 5px;
+-    width: 300px;
+-    height: 40px;
++.modal .link span{
++     font-weight: 250;
++     font-size: 18px;
++     line-height: 89%;
++     color: #3d3d3d;
++    margin: 0 11px;
++ }
++ .text{
++     border-radius: 5px;
++     width: 300px;
++     height: 40px;
++     padding-bottom: 12px;
++ }
++ .form .box{
++     width: 300px;
++     height: 40px;
++     font-weight: 400;
++     font-size: 14px;
++     line-height: 114%;
++     color: #a5a5a5;
++     padding: 12px 14px;
++     margin-bottom: 16px;
++ }
++.form input:last-of-type{
++    margin-bottom: 41px;
+ }
+-
+-.btn{
+-    border-radius: 5px;
+-    width: 300px;
+-    height: 45px;
+-    background: #46a358;
+-}
+-
+-.with{
+-    font-weight: 400;
+-    font-size: 13px;
+-    line-height: 123%;
+-    color: #3d3d3d;
+-    text-align: center;
+-}
+-
+-button{
+-    font-weight: 700;
+-    font-size: 16px;
+-    line-height: 100%;
+-    color: #fff;
+-    margin: 13px 118px;
+-}
+-
++ .form .btn{
++     width: 300px;
++     height: 45px;
++     background: #46a358;
++     font-weight: 700;
++     font-size: 16px;
++     line-height: 100%;
++     color: #fff;
++     padding: 13px;
++     text-align: center;
++     margin-bottom: 36px;
++ }
++ .with{
++     font-weight: 400;
++     font-size: 13px;
++     line-height: 123%;
++     color: #3d3d3d;
++     text-align: center;
++     margin-bottom: 27px;
++ }
++ .social{
++     border: 1px solid #eaeaea;
++     border-radius: 5px;
++     width: 300px;
++     height: 40px;
++     display: flex;
++     justify-content: center;
++     align-items: center;
++     text-decoration: none;
++     font-weight: 500;
++     font-size: 13px;
++     line-height: 123%;
++     text-align: center;
++     color: #727272;
++ }
++ .modal .social .picinet{
++     margin-right: 9px;
++ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a051bca1-0671-4b07-ae29-77a0b1e34846\" name=\"Changes\" comment=\"add workspace\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/php.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/php.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Registration.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Registration.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/normalize.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/normalize.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/reset.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/reset.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/style.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2iZ96xHaKwjmNzfPDnRsE4BQiz0\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17890.8\" />\r\n        <option value=\"bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a051bca1-0671-4b07-ae29-77a0b1e34846\" name=\"Changes\" comment=\"\" />\r\n      <created>1719687060540</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1719687060540</updated>\r\n      <workItem from=\"1719687061823\" duration=\"23000\" />\r\n      <workItem from=\"1719687879330\" duration=\"455000\" />\r\n      <workItem from=\"1719729782013\" duration=\"1378000\" />\r\n      <workItem from=\"1719731186082\" duration=\"997000\" />\r\n      <workItem from=\"1719733987586\" duration=\"2429000\" />\r\n      <workItem from=\"1719750952269\" duration=\"2623000\" />\r\n      <workItem from=\"1719756947042\" duration=\"225000\" />\r\n      <workItem from=\"1719757187571\" duration=\"4184000\" />\r\n      <workItem from=\"1719774672254\" duration=\"7032000\" />\r\n      <workItem from=\"1719843991512\" duration=\"1569000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"add workspace\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719731300100</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719731300100</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"add workspace\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add workspace\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7b03581680d8ffaccaff6fe6ca6a718184a0261b)
++++ b/.idea/workspace.xml	(date 1720196048568)
+@@ -5,11 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add workspace">
+-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -23,8 +20,8 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="HTML File" />
+         <option value="CSS File" />
++        <option value="HTML File" />
+       </list>
+     </option>
+   </component>
+@@ -61,8 +58,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17890.8" />
+-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8" />
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
++        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -84,6 +81,8 @@
+       <workItem from="1719757187571" duration="4184000" />
+       <workItem from="1719774672254" duration="7032000" />
+       <workItem from="1719843991512" duration="1569000" />
++      <workItem from="1720110399872" duration="10280000" />
++      <workItem from="1720123041598" duration="2510000" />
+     </task>
+     <task id="LOCAL-00001" summary="add workspace">
+       <option name="closed" value="true" />
