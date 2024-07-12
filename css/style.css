@@ -196,7 +196,7 @@ main .banner .planet{
     color: #3d3d3d;
     margin-bottom: 5px;
 }
-main span{
+main .banner span{
     color: #46a358;
 }
 main .banner .urban{
@@ -238,8 +238,11 @@ main .container .flowers{
 }
 
 
-.product .container{
 
+.product .container{
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
 }
 .product .menu{
     max-width: 310px;
@@ -261,7 +264,7 @@ main .container .flowers{
     color: #46a358;
     text-decoration: none;
 }
-.product .menu ul a{
+.product .menu a{
     font-weight: 400;
     color: #3d3d3d;
     font-size: 15px;
@@ -276,5 +279,90 @@ main .container .flowers{
 
 
 
-
-
+.product .top{
+    max-width: 838px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    margin-left: 50px;
+}
+.product .top li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .top li:first-of-type a{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 107%;
+    color: #46a358;
+    border-bottom: 2px solid #46a358;
+    width: 65px;
+}
+.product .top p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .top ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 37px;
+}
+.product .plants{
+    max-width: 840px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+}
+.product .plants img{
+    width: 250px;
+    height: 250px;
+}
+.product .plants h2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-bottom: 6px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .plants p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .list{
+    display: flex;
+    justify-content: flex-end;
+}
+.product .list ul{
+    display: flex;
+    width: 215px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .list li a{
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background: green;
+}

@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz7">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_06_2024_14_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_06_2024_14_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/01 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Super Sale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/image 12.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +63,7 @@
       <recent name="C:\Hillel 2024\GREENSHOP\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Hillel 2024\GREENSHOP\img" />
       <recent name="C:\Hillel 2024\GREENSHOP\css" />
       <recent name="C:\Hillel 2024\GREENSHOP\html_exp" />
     </key>
@@ -75,8 +71,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17890.8" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
       </set>
     </attachedChunks>
   </component>
@@ -117,6 +113,8 @@
       <workItem from="1720465083341" duration="8901000" />
       <workItem from="1720537027150" duration="6299000" />
       <workItem from="1720630754978" duration="6122000" />
+      <workItem from="1720643931971" duration="20000" />
+      <workItem from="1720716088644" duration="13471000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
