@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz8" />
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz8">
+      <change afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ArrowRightFind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ArrowRightFind_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ArrowRightRead.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ArrowRightRead_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Logout_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Stroke1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_07_2024_19_14_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_07_2024_19_14__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_07_2024_18_37_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_07_2024_18_37__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/01 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,25 +67,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Hillel 2024/GREENSHOP/fonts&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Hillel 2024/GREENSHOP/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Hillel 2024\GREENSHOP\img" />
       <recent name="C:\Hillel 2024\GREENSHOP\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -110,6 +142,15 @@
       <workItem from="1720630754978" duration="6122000" />
       <workItem from="1720643931971" duration="20000" />
       <workItem from="1720716088644" duration="13471000" />
+      <workItem from="1720768641075" duration="764000" />
+      <workItem from="1720804879454" duration="1909000" />
+      <workItem from="1720863945197" duration="7031000" />
+      <workItem from="1720881827534" duration="292000" />
+      <workItem from="1720885758676" duration="3191000" />
+      <workItem from="1720889153762" duration="19717000" />
+      <workItem from="1720995965886" duration="195000" />
+      <workItem from="1721026040520" duration="692000" />
+      <workItem from="1721055565729" duration="19088000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -175,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720767995217</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add dz8">
+      <option name="closed" value="true" />
+      <created>1720768782707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720768782707</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

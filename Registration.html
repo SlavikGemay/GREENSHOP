@@ -55,5 +55,56 @@
     </a>
 
 </div>
+
+
+
+<form name="search" method="post" action="">
+    <div>
+        <label style="display: block;" for="first_name">First Name</label>
+        <input name="first_name" type="text" placeholder="Name" id="first_name">
+    </div>
+
+    <div>
+        <label style="display: block;" for="last_name">Last Name</label>
+        <input name="last_name" type="text" placeholder="Name" id="last_name">
+    </div>
+
+    <div>
+        <label for="i_agree">
+            <input name="i_agree" type="checkbox" id="i_agree" checked>
+            I agree about terms and conditions ....
+        </label>
+    </div>
+
+    <div>
+        <label for="gender">
+            <input name="gender" type="radio" id="gender" value="man">
+            man
+        </label>
+        <label for="gender_2">
+            <input name="gender" type="radio" id="gender_2" value="woman">
+            woman
+        </label>
+    </div>
+
+    <div>
+        <input type="file" name="load">
+    </div>
+
+    <div>
+        <textarea placeholder="message" style="resize: none; width: 300px; height: 200px;"></textarea>
+    </div>
+
+    <div>
+        <select>
+            <option>KHarkiv</option>
+            <option>Kiev</option>
+            <option>Dnepr</option>
+        </select>
+    </div>
+
+    <button type="submit">send</button>
+
+</form>
 </body>
 </html>
