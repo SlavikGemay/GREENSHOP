@@ -124,7 +124,6 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 1px green;
 }
 .login_btn{
     border-radius: 6px;
@@ -155,7 +154,6 @@ header .container{
 }
 .login_btn:hover:before{
     background-image: url("../img/Logout_2.svg");
-
 }
 header ul{
     display: flex;
@@ -163,31 +161,68 @@ header ul{
     gap: 50px;
     font-family: 'cera_round_pro_demoregular';
 }
-header .home{
-    font-weight: 700;
-    font-size: 16px;
-    color: #3d3d3d;
-    text-decoration: none;
+header li{
+    text-align: center;
+    position: relative;
 }
-header .home:hover{
-    color: orange;
-}
-header .shop, .plantcare, .blogs{
+header ul .a{
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
+}
+header ul .a:hover{
+    font-weight: 700;
+    color: #46a358;
+}
+header ul li:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #46a358;
+    position: relative;
+    bottom: -18px;
+    transition: 0.4s;
+}
+header ul li:hover:after{
+    width: 100%;
+}
+header ul li ul{
+    position: absolute;
+    bottom: -118px;
+    left: -32px;
+    background: #46a358;
+    display: none;
+}
+header ul li ul li{
+    text-align: left;
+    min-width: 188px;
+    background: #edf6ee;
+}
+header .dropdown li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding: 8px 14px;
+}
+header .dropdown ul li{
+
+}
+header li.dropdown:hover ul{
+    display: block;
 }
 
 
 
 .banner{
     margin-bottom: 26px;
+    padding-top: 12px;
 }
 .banner .container{
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box ;
     padding-left: 43px;
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
@@ -238,6 +273,7 @@ header .shop, .plantcare, .blogs{
     text-decoration: none;
     padding: 10px 27px;
     margin-bottom: 85px;
+    font-family: 'cera_round_pro_demoregular';
 }
 .banner .flowers{
     display: flex;
@@ -265,13 +301,6 @@ header .shop, .plantcare, .blogs{
     margin-bottom: 7px;
     font-family: 'cera_round_pro_demoregular';
 }
-.product .menu li:first-of-type a{
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 267%;
-    color: #46a358;
-    text-decoration: none;
-}
 .product .menu a{
     font-weight: 400;
     color: #3d3d3d;
@@ -281,16 +310,20 @@ header .shop, .plantcare, .blogs{
     padding-left: 30px;
     font-family: 'cera_round_pro_demoregular';
 }
+.product .menu a:hover{
+    font-weight: 700;
+    color: #46a358;
+}
 .product .menu ul{
     margin-bottom: 250px;
 }
-
 
 
 .product .top{
     max-width: 840px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 31px;
     margin-left: 50px;
 }
@@ -302,13 +335,10 @@ header .shop, .plantcare, .blogs{
     text-decoration: none;
     font-family: 'cera_round_pro_demoregular';
 }
-.product .top li:first-of-type a{
+.product .top li a:hover{
     font-weight: 700;
-    font-size: 15px;
-    line-height: 107%;
     color: #46a358;
     border-bottom: 2px solid #46a358;
-    width: 65px;
 }
 .product .top p{
     font-weight: 400;
@@ -322,6 +352,8 @@ header .shop, .plantcare, .blogs{
     align-items: flex-start;
     gap: 37px;
 }
+
+
 .product .plants{
     max-width: 840px;
     display: flex;
@@ -330,10 +362,44 @@ header .shop, .plantcare, .blogs{
     gap: 100px 20px;
     margin-left: 50px;
     margin-bottom: 90px;
+
+}
+.product .plants .border{
+    border-top: solid 1px transparent;
+    position: relative;
+}
+.product .plants .sale{
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 7px 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product article .by{
+    width: 125px;
+    bottom: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    left: calc(50% - 63px);
+}
+.product .border .by_2{
+    width: 20px;
+    height: 20px;
+}
+.product .border:hover{
+    border-top: solid 1px green;
 }
 .product .plants img{
     width: 250px;
     height: 250px;
+    margin-bottom: 37px;
 }
 .product .plants h2{
     font-weight: 400;
@@ -350,6 +416,8 @@ header .shop, .plantcare, .blogs{
     color: #46a358;
     font-family: 'cera_round_pro_demoregular';
 }
+
+
 .product .list{
     display: flex;
     justify-content: flex-end;
@@ -373,6 +441,9 @@ header .shop, .plantcare, .blogs{
 .product .list li a:hover{
     color: white;
     background: green;
+}
+.product .list li:last-of-type img:hover{
+    background-image: url("../img/Stroke_2.svg");
 }
 
 
@@ -436,7 +507,6 @@ header .shop, .plantcare, .blogs{
     height: 18px;
     content: "";
     margin-left: 2px;
-
     stroke: #fff;
 }
 
@@ -529,6 +599,7 @@ header .shop, .plantcare, .blogs{
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 
     font-family: 'cera_round_pro_demoregular';
 }
@@ -538,8 +609,11 @@ header .shop, .plantcare, .blogs{
     width: 16px;
     height: 16px;
     content: "";
-    margin-left: 3px;
+    margin-left: 6px;
 }
-.blog article:nth-of-type(3) .read:after{
+.blog .read:hover{
+    color: #46a358;
+}
+.blog .read:hover:after{
     background-image: url("../img/ArrowRightRead_2.svg");
 }
