@@ -387,7 +387,12 @@ header li.dropdown:hover ul{
     justify-content: center;
     align-items: center;
     gap: 27px;
-    left: calc(50% - 63px);
+    left: calc(50% - 63px);lay: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+.product .border:hover .by{
+    opacity: 1;
 }
 .product .border .by_2{
     width: 20px;
@@ -424,6 +429,7 @@ header li.dropdown:hover ul{
 }
 .product .list ul{
     display: flex;
+    align-items: center;
     width: 215px;
     gap: 10px;
     font-family: 'cera_round_pro_demoregular';
@@ -442,7 +448,7 @@ header li.dropdown:hover ul{
     color: white;
     background: green;
 }
-.product .list li:last-of-type img:hover{
+.product .list li:last-of-type:hover a{
     background-image: url("../img/Stroke_2.svg");
 }
 
@@ -616,4 +622,136 @@ header li.dropdown:hover ul{
 }
 .blog .read:hover:after{
     background-image: url("../img/ArrowRightRead_2.svg");
+}
+
+
+.join .container{
+    background: #fbfbfb;
+    padding: 25px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.join article{
+    width: 204px;
+    text-align: left;
+}
+.join article img{
+    margin-bottom: 15px;
+}
+.join article h4{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.join article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    font-family: 'cera_round_pro_demoregular';
+}
+.join .would{
+    max-width: 354px;
+}
+.join .would form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.join .would h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding-top: 12px;
+    margin-bottom: 25px;
+    font-family: 'cera_round_pro_demoregular';
+}
+.join form input{
+    padding: 12px 11px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: white;
+    background: #fff;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    width: 269px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    font-family: 'cera_round_pro_demoregular';
+}
+.join form button{
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    width: 85px;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    background: #46a358;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    font-family: 'cera_round_pro_demoregular';
+}
+.join .would p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+    font-family: 'cera_round_pro_demoregular';
+}
+
+
+footer .container{
+    padding: 27px 23px;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+}
+footer .contacts{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer .location, .message, .calling{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-family: 'cera_round_pro_demoregular';
+}
+footer .location{
+    width: 205px;
+}
+footer .location:before{
+    background-image: url("../img/Location.svg");
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    content: "";
+    margin-right: 13px;
+}
+footer .message:before{
+    background-image: url("../img/Message.svg");
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    content: "";
+    margin-right: 13px;
+}
+footer .calling:before{
+    background-image: url("../img/Calling.svg");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    margin-right: 13px;
+}
+footer a:hover{
+    color: #46a358;
 }

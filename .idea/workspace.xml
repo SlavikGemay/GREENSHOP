@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz9">
-      <change afterPath="$PROJECT_DIR$/img/Frame1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Frame2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Frame3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Stroke_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024_23_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024_23_30__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz10">
+      <change afterPath="$PROJECT_DIR$/img/Picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Picture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Picture3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -136,7 +132,7 @@
       <workItem from="1721232952775" duration="4185000" />
       <workItem from="1721322835063" duration="7686000" />
       <workItem from="1721396751273" duration="9608000" />
-      <workItem from="1721462389818" duration="15740000" />
+      <workItem from="1721462389818" duration="43384000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -218,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721077116643</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add dz10">
+      <option name="closed" value="true" />
+      <created>1721479581443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721479581443</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +236,8 @@
     <MESSAGE value="add dz7" />
     <MESSAGE value="add dz8" />
     <MESSAGE value="add dz9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dz9" />
+    <MESSAGE value="add dz10" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dz10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
