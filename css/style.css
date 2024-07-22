@@ -675,10 +675,10 @@ header li.dropdown:hover ul{
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
-    color: white;
     background: #fff;
     border-radius: 6px 0 0 6px;
     border: none;
+    outline: none;
     width: 269px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
     font-family: 'cera_round_pro_demoregular';
