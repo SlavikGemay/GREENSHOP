@@ -118,12 +118,11 @@
 }
 header{
     padding-top: 31px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 header .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .login_btn{
     border-radius: 6px;
@@ -136,7 +135,6 @@ header .container{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 18px;
     padding: 7px 17px;
     font-family: 'cera_round_pro_demoregular';
@@ -159,6 +157,7 @@ header ul{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-top: 8px;
     font-family: 'cera_round_pro_demoregular';
 }
 header li{
@@ -362,11 +361,11 @@ header li.dropdown:hover ul{
     gap: 100px 20px;
     margin-left: 50px;
     margin-bottom: 90px;
-
 }
 .product .plants .border{
     border-top: solid 1px transparent;
     position: relative;
+    background: #fbfbfb;
 }
 .product .plants .sale{
     background: #46a358;
@@ -390,6 +389,9 @@ header li.dropdown:hover ul{
     left: calc(50% - 63px);lay: none;
     opacity: 0;
     transition: 0.3s;
+}
+.product .plants div{
+    background: #fbfbfb;
 }
 .product .border:hover .by{
     opacity: 1;
@@ -425,31 +427,45 @@ header li.dropdown:hover ul{
 
 .product .list{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
 .product .list ul{
-    display: flex;
-    align-items: center;
-    width: 215px;
+    display: inline-flex;
     gap: 10px;
+    width: 215px;
     font-family: 'cera_round_pro_demoregular';
 }
-.product .list li a{
+.product .list li{
     border: 1px solid #e5e5e5;
-    border-radius:4px;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    align-content: center;
+
+}
+.product .list li a{
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
     padding: 12px;
     text-decoration: none;
+    font-family: 'cera_round_pro_demoregular';
+}
+.product .list li:hover{
+    background: #46a358;
 }
 .product .list li a:hover{
-    color: white;
-    background: green;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    font-family: 'cera_round_pro_demoregular';
 }
-.product .list li:last-of-type:hover a{
+.product .list li:last-of-type:hover img{
     background-image: url("../img/Stroke_2.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 13px;
 }
 
 
@@ -754,4 +770,40 @@ footer .calling:before{
 }
 footer a:hover{
     color: #46a358;
+}
+
+
+.flex_container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: end;
+    align-items: end;
+}
+.flex_container .block1{
+    width: 300px;
+
+    background: orange;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex_container2{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    border: solid 3px green;
+    height: 500px;
+}
+.block2{
+    border: solid 1px black;
+    background: paleturquoise;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
 }
