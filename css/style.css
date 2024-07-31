@@ -132,7 +132,7 @@ header .container{
     color: #fff;
     text-decoration: none;
 
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 18px;
@@ -141,7 +141,7 @@ header .container{
 }
 .login_btn:before{
     background-image: url("../img/Logout.svg");
-    display: inline-block;
+    display: inline-flex;
     width: 20px;
     height: 20px;
     content: "";
@@ -155,69 +155,65 @@ header .container{
 }
 header ul{
     display: flex;
-    align-items: center;
     gap: 50px;
-    margin-top: 8px;
+    padding-top: 8px;
     font-family: 'cera_round_pro_demoregular';
 }
 header li{
     text-align: center;
     position: relative;
 }
-header ul .a{
+header ul .menu{
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
 }
-header ul .a:hover{
+header ul .dropdown ul{
+    display: none;
+    position: absolute;
+    padding-top: 41px;
+    left: -50px;
+    bottom: -166px;
+}
+header ul .dropdown li{
+    text-align: left;
+    min-width: 188px;
+    padding: 8px 14px;
+    background-color: #edf6ee;
+}
+header ul .dropdown a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+header li.dropdown:hover ul{
+    display: block;
+}
+header ul .menu:hover{
     font-weight: 700;
     color: #46a358;
 }
-header ul li:after{
+header ul .dropdown:after{
     content: "";
     display: block;
     width: 0;
     height: 3px;
     background: #46a358;
     position: relative;
-    bottom: -18px;
+    bottom: -20px;
     transition: 0.4s;
 }
-header ul li:hover:after{
+header ul .dropdown:hover:after{
     width: 100%;
 }
-header ul li ul{
-    position: absolute;
-    bottom: -118px;
-    left: -32px;
-    background: #46a358;
-    display: none;
-}
-header ul li ul li{
-    text-align: left;
-    min-width: 188px;
-    background: #edf6ee;
-}
-header .dropdown li a{
-    font-weight: 400;
-    font-size: 16px;
-    color: #3d3d3d;
-    text-decoration: none;
-    padding: 8px 14px;
-}
-header .dropdown ul li{
 
-}
-header li.dropdown:hover ul{
-    display: block;
-}
 
 
 
 .banner{
     margin-bottom: 26px;
-    padding-top: 12px;
 }
 .banner .container{
     display: flex;
@@ -289,6 +285,7 @@ header li.dropdown:hover ul{
 }
 .product .menu{
     max-width: 310px;
+    height: 1234px;
     background: #fbfbfb;
 }
 .product .menu h2{
@@ -314,7 +311,7 @@ header li.dropdown:hover ul{
     color: #46a358;
 }
 .product .menu ul{
-    margin-bottom: 250px;
+    margin-bottom: 352px;
 }
 
 
@@ -334,10 +331,11 @@ header li.dropdown:hover ul{
     text-decoration: none;
     font-family: 'cera_round_pro_demoregular';
 }
-.product .top li a:hover{
+.product .top li:hover a{
     font-weight: 700;
     color: #46a358;
     border-bottom: 2px solid #46a358;
+    font-family: 'cera_round_pro_demoregular';
 }
 .product .top p{
     font-weight: 400;
@@ -380,23 +378,30 @@ header li.dropdown:hover ul{
 }
 .product article .by{
     width: 125px;
-    bottom: 20px;
+    bottom: 50px;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 27px;
-    left: calc(50% - 63px);lay: none;
+    left: calc(50% - 63px);
     opacity: 0;
     transition: 0.3s;
 }
-.product .plants div{
+.product article a:hover svg path{
+    fill: #46a358;
+}
+.product .plants article{
     background: #fbfbfb;
 }
 .product .border:hover .by{
     opacity: 1;
 }
 .product .border .by_2{
+    width: 20px;
+    height: 20px;
+}
+.product .border svg path{
     width: 20px;
     height: 20px;
 }
@@ -440,8 +445,8 @@ header li.dropdown:hover ul{
     border-radius: 4px;
     width: 35px;
     height: 35px;
+    align-items: center;
     align-content: center;
-
 }
 .product .list li a{
     font-weight: 300;
@@ -462,10 +467,8 @@ header li.dropdown:hover ul{
     color: #fff;
     font-family: 'cera_round_pro_demoregular';
 }
-.product .list li:last-of-type:hover img{
-    background-image: url("../img/Stroke_2.svg");
-    background-repeat: no-repeat;
-    background-position: 10px 13px;
+.product .list li:hover svg path{
+    stroke: white;
 }
 
 
@@ -540,10 +543,9 @@ header li.dropdown:hover ul{
 .blog .cards{
     display: flex;
     justify-content: space-between;
-    gap: 44px;
 }
 .blog article{
-    width: 268px;
+    width: 283px;
     background: #fbfbfb;
 }
 .blog h2{
@@ -620,9 +622,6 @@ header li.dropdown:hover ul{
     padding-bottom: 13px;
     text-decoration: none;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-
     font-family: 'cera_round_pro_demoregular';
 }
 .blog .read:after{
@@ -650,6 +649,19 @@ header li.dropdown:hover ul{
 .join article{
     width: 204px;
     text-align: left;
+    position: relative;
+}
+
+.join .border:after{
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+    top: 102px;
+    right: -106px;
 }
 .join article img{
     margin-bottom: 15px;
@@ -773,19 +785,20 @@ footer a:hover{
 }
 
 
+
+
 .flex_container{
     margin: auto;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 600px;
     align-content: end;
     align-items: end;
+    flex-wrap: wrap;
+    height: 500px;
 }
 .flex_container .block1{
     width: 300px;
-
     background: orange;
     margin: 10px;
     text-align: center;
@@ -793,17 +806,20 @@ footer a:hover{
 
 .flex_container2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    align-items: center;
+    align-content: end;
+    max-width: 900px;
     margin: auto;
     border: solid 3px green;
     height: 500px;
 }
-.block2{
+.flex_container2 .block2{
     border: solid 1px black;
     background: paleturquoise;
     width: 200px;
-    height: 100px;
     text-align: center;
-    align-content: center;
+
+
 }
