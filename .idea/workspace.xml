@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add list">
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Frame_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Frame_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Frame_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add update dz10-11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Frame1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Frame1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Frame3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Frame3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Stroke_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Stroke_2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Hillel 2024/GREENSHOP/scripts",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Hillel 2024/GREENSHOP/scripts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Hillel 2024\GREENSHOP\scripts" />
@@ -146,7 +134,9 @@
       <workItem from="1721322835063" duration="7686000" />
       <workItem from="1721396751273" duration="9608000" />
       <workItem from="1721462389818" duration="96941000" />
-      <workItem from="1722190719343" duration="33745000" />
+      <workItem from="1722190719343" duration="35105000" />
+      <workItem from="1722454272354" duration="1000" />
+      <workItem from="1722528669731" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -268,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722167042713</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add update dz10-11">
+      <option name="closed" value="true" />
+      <created>1722452007184</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722452007184</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +283,8 @@
     <MESSAGE value="add dz10" />
     <MESSAGE value="add dz11" />
     <MESSAGE value="add list" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list" />
+    <MESSAGE value="add update dz10-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update dz10-11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
