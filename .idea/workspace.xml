@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add update dz12">
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add update dz11 footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -136,7 +135,7 @@
       <workItem from="1722454272354" duration="1000" />
       <workItem from="1722528669731" duration="13249000" />
       <workItem from="1722618690500" duration="46000" />
-      <workItem from="1722675763150" duration="18758000" />
+      <workItem from="1722675763150" duration="25384000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -274,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722546945149</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add update list2">
+      <option name="closed" value="true" />
+      <created>1722702866361</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722702866361</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add update dz11 footer">
+      <option name="closed" value="true" />
+      <created>1722711403946</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722711403946</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +308,9 @@
     <MESSAGE value="add list" />
     <MESSAGE value="add update dz10-11" />
     <MESSAGE value="add update dz12" />
-    <option name="LAST_COMMIT_MESSAGE" value="add update dz12" />
+    <MESSAGE value="add update list2" />
+    <MESSAGE value="add update dz11 footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update dz11 footer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

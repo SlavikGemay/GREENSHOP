@@ -746,7 +746,6 @@ header .dropdown .listdrop:hover svg path{
     text-align: left;
     position: relative;
 }
-
 .join .border:after{
     content: "";
     display: block;
@@ -912,11 +911,19 @@ footer .socialmedia{
 }
 footer .socialmedia ul{
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    margin-bottom: 33px;
+}
+footer .socialmedia ul li{
+    border: 1px solid rgba(70, 163, 88, 0.2);
     border-radius: 4px;
     width: 30px;
     height: 30px;
-    margin-bottom: 33px;
+}
+footer .socialmedia ul li a{
+    padding: 10px;
 }
 footer .socialmedia h4:first-of-type{
     margin-bottom: 20px;
@@ -936,6 +943,7 @@ footer .info .container:after{
 }
 footer .info p{
     text-align: center;
+    margin-bottom: 15px;
 }
 
 
