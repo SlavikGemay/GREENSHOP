@@ -910,20 +910,20 @@ footer .socialmedia{
     padding-right: 155px;
 }
 footer .socialmedia ul{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
     gap: 10px;
     margin-bottom: 33px;
 }
-footer .socialmedia ul li{
+footer .socialmedia li{
     border: 1px solid rgba(70, 163, 88, 0.2);
     border-radius: 4px;
     width: 30px;
     height: 30px;
+    align-items: center;
+    align-content: center;
 }
-footer .socialmedia ul li a{
-    padding: 10px;
+footer .socialmedia a{
+    padding: 7px 5px;
 }
 footer .socialmedia h4:first-of-type{
     margin-bottom: 20px;
