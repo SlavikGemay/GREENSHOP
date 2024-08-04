@@ -884,7 +884,6 @@ footer .info .container{
     justify-content: space-between;
     padding: 30px 25px;
     background: #fbfbfb;
-    position: relative;
     margin-bottom: 6px;
     font-family: 'cera_round_pro_demoregular';
 }
@@ -919,11 +918,11 @@ footer .socialmedia li{
     border-radius: 4px;
     width: 30px;
     height: 30px;
+    justify-content: center;
     align-items: center;
-    align-content: center;
 }
 footer .socialmedia a{
-    padding: 7px 5px;
+    padding: 7px;
 }
 footer .socialmedia h4:first-of-type{
     margin-bottom: 20px;
@@ -970,7 +969,7 @@ footer .info p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: end;
+    align-content: center;
     max-width: 900px;
     margin: auto;
     border: solid 3px green;
@@ -979,8 +978,9 @@ footer .info p{
 .flex_container2 .block2{
     border: solid 1px black;
     background: paleturquoise;
-    width: 200px;
+    width: 300px;
+    height: 300px;
     text-align: center;
-
+    border-radius: 65%;
 
 }
