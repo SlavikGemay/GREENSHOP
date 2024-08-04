@@ -885,6 +885,7 @@ footer .info .container{
     padding: 30px 25px;
     background: #fbfbfb;
     margin-bottom: 6px;
+    position: relative;
     font-family: 'cera_round_pro_demoregular';
 }
 footer .info h4{
@@ -943,6 +944,7 @@ footer .info .container:after{
 footer .info p{
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 13px;
 }
 
 
