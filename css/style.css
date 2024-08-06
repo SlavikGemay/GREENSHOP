@@ -917,13 +917,16 @@ footer .socialmedia ul{
 footer .socialmedia li{
     border: 1px solid rgba(70, 163, 88, 0.2);
     border-radius: 4px;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
 }
 footer .socialmedia a{
-    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+footer .socialmedia a:hover{
+    background: paleturquoise;
 }
 footer .socialmedia h4:first-of-type{
     margin-bottom: 20px;
@@ -948,32 +951,32 @@ footer .info p{
     font-family: 'cera_round_pro_demoregular';
 }
 
-body{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    z-index: 10;
-    animation: preloader 1.5s;
-    opacity: 1;
-}
-@keyframes preloader {
-    0%{
-        opacity: 0;
-        background-color: black;
-        background-image: url("../img/Logo_preloader.svg");
-        background-repeat: no-repeat;
-    }
-    50%{
-        background-color: orange;
-    }
-    100%{
-        /*background-color: #77929F;*/
-        background-color: black;
-        opacity: 0;
-        background-image: url("../img/Logo_preloader.svg");
-        background-repeat: no-repeat;
-    }
-}
+/*body{*/
+/*    position: absolute;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    z-index: 10;*/
+/*    animation: preloader 1.5s;*/
+/*    opacity: 1;*/
+/*}*/
+/*@keyframes preloader {*/
+/*    0%{*/
+/*        opacity: 0;*/
+/*        background-color: black;*/
+/*        background-image: url("../img/Logo_preloader.svg");*/
+/*        background-repeat: no-repeat;*/
+/*    }*/
+/*    50%{*/
+/*        background-color: orange;*/
+/*    }*/
+/*    100%{*/
+/*        !*background-color: #77929F;*!*/
+/*        background-color: black;*/
+/*        opacity: 0;*/
+/*        background-image: url("../img/Logo_preloader.svg");*/
+/*        background-repeat: no-repeat;*/
+/*    }*/
+/*}*/
 
 
 

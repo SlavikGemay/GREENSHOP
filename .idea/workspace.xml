@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add update footer photo">
-      <change afterPath="$PROJECT_DIR$/img/Logo_preloader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz13">
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +22,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SlavikGemay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SlavikGemay/GREENSHOP.git&quot;,
+    &quot;accountId&quot;: &quot;3f9013ad-0e3f-4fc0-9ab2-e847ee292e22&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -48,13 +63,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Hillel 2024/GREENSHOP/img",
-    "list.type.of.created.stylesheet": "CSS",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,8 +81,8 @@
       <recent name="C:\Hillel 2024\GREENSHOP\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Hillel 2024\GREENSHOP\img" />
       <recent name="C:\Hillel 2024\GREENSHOP\css" />
+      <recent name="C:\Hillel 2024\GREENSHOP\img" />
       <recent name="C:\Hillel 2024\GREENSHOP\html_exp" />
     </key>
   </component>
@@ -136,7 +151,8 @@
       <workItem from="1722454272354" duration="1000" />
       <workItem from="1722528669731" duration="13249000" />
       <workItem from="1722618690500" duration="46000" />
-      <workItem from="1722675763150" duration="48119000" />
+      <workItem from="1722675763150" duration="56437000" />
+      <workItem from="1722964787584" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -330,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722770878082</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add dz13">
+      <option name="closed" value="true" />
+      <created>1722803379493</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722803379493</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +376,8 @@
     <MESSAGE value="add update list2" />
     <MESSAGE value="add update dz11 footer" />
     <MESSAGE value="add update footer photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add update footer photo" />
+    <MESSAGE value="add dz13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dz13" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
