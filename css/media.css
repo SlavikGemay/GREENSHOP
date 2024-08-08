@@ -1,3 +1,181 @@
-@media only screen and (max-width: 600px){
-    
+@media only screen and (max-width: 769px){
+    .container{
+        padding: 0 15px;
+    }
+    header ul{
+        gap: 30px;
+    }
+    header .logo{
+        z-index: 1;
+    }
+    .banner{
+        position: relative;
+    }
+    .banner .container{
+        padding-left: 30px;
+    }
+    .banner .flowers{
+        position: relative;
+        top: -100px;
+        right: -12px;
+    }
+    .product .menu{
+        max-width: 168px;
+    }
+    .product .menu ul{
+        margin-bottom: 567px;
+    }
+    .product .menu img{
+        width: 168px;
+    }
+    .product .list{
+        padding-right: 15px;
+    }
+    .summer .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 10px;
+    }
+    .product .plants{
+        margin-bottom: 25px;
+    }
+    .blog .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 45px;
+    }
+    .join .container {
+        background: #fbfbfb;
+        padding: 25px 24px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .join .would {
+        max-width: 354px;
+        margin: auto;
+    }
+    footer .info .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px 25px;
+        background: #fbfbfb;
+        margin-bottom: 6px;
+        gap: 20px;
+        position: relative;
+        font-family: 'cera_round_pro_demoregular';
+    }
+    footer .socialmedia {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    header nav{
+        display: none;
+    }
+    .banner .container {
+        display: block;
+    }
+    .banner .flowers{
+        top: -98px;
+        right: 30px;
+    }
+    .product .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product .menu {
+        max-width: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 850px;
+        justify-content: space-around;
+        background: #fbfbfb;
+        margin-bottom: 25px;
+        }
+    .product .menu ul {
+        margin-bottom: 31px;
+    }
+    .product .menu img{
+        width: 308px;
+    }
+    .product .menu h2{
+        position: relative;
+        top: 158px;
+    }
+    .product .top {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        width: 251px;
+        margin-bottom: 10px;
+    }
+    .product .plants {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+    .product .list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -45px;
+    }
+    .product .list ul{
+        position: relative;
+        left: 4px;
+    }
+    .summer img {
+        width: 299px;
+        height: 221px;
+    }
+    .summer{
+        margin-bottom: 50px;
+    }
+    .summer .right{
+        margin-bottom: 23px;
+    }
+    .blog {
+        margin-bottom: 25px;
+    }
+    .blog .cards{
+        gap: 20px;
+    }
+    .blog img{
+        width: 283px;
+    }
+    .join .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .join .border:after {
+        display: none;
+    }
+    .join article {
+        text-align: center;
+    }
+    footer .adress .container{
+        display: flex;
+        justify-content: center;
+    }
+    footer .contacts {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+        gap: 12px;
+    }
 }
