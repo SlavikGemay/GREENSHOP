@@ -84,8 +84,11 @@
         display: block;
     }
     .banner .flowers{
-        top: -98px;
-        right: 30px;
+        top: -60px;
+        /*right: 30px;*/
+    }
+    .banner img{
+        width: 100%;
     }
     .product .container {
         display: flex;
@@ -146,6 +149,7 @@
     }
     .summer .right{
         margin-bottom: 23px;
+        padding-right: 15px;
     }
     .blog {
         margin-bottom: 25px;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add scss?">
+    <list default="true" id="a051bca1-0671-4b07-ae29-77a0b1e34846" name="Changes" comment="add dz14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
     </list>
@@ -149,7 +149,7 @@
       <workItem from="1722528669731" duration="13249000" />
       <workItem from="1722618690500" duration="46000" />
       <workItem from="1722675763150" duration="56437000" />
-      <workItem from="1722964787584" duration="17056000" />
+      <workItem from="1722964787584" duration="20809000" />
     </task>
     <task id="LOCAL-00001" summary="add workspace">
       <option name="closed" value="true" />
@@ -359,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722965928425</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add dz14">
+      <option name="closed" value="true" />
+      <created>1723147830287</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723147830287</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +391,8 @@
     <MESSAGE value="add update footer photo" />
     <MESSAGE value="add dz13" />
     <MESSAGE value="add scss?" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scss?" />
+    <MESSAGE value="add dz14" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dz14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
