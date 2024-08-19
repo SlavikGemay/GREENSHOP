@@ -214,30 +214,30 @@ header .logo{
     display: inline-flex;
     position: relative;
     top: 0;
-    left: 0;
+    left: 174px;
     animation: logo 2s infinite;
 }
-@keyframes logo {
-    0%{
-        top: 0;
-        left: 0;
-    }
-    25%{
-        bottom: 25px;
-        right: 25px;
-    }
-    50%{
-        bottom: 50px;
-    }
-    75%{
-        left: 25px;
-        top: 25px;
-    }
-    100%{
-        top: 0;
-        left: 0;
-    }
-}
+/*@keyframes logo {*/
+/*    0%{*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*    }*/
+/*    25%{*/
+/*        bottom: 25px;*/
+/*        right: 25px;*/
+/*    }*/
+/*    50%{*/
+/*        bottom: 50px;*/
+/*    }*/
+/*    75%{*/
+/*        left: 25px;*/
+/*        top: 25px;*/
+/*    }*/
+/*    100%{*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
 
 header .dropdown .listdrop{
     position: relative;
@@ -368,6 +368,8 @@ header .dropdown .listdrop:hover svg path{
 .banner .flowers{
     display: flex;
     align-items: flex-end;
+    width: 507px;
+    height: 450px;
 }
 
 
@@ -662,6 +664,8 @@ header .dropdown .listdrop:hover svg path{
     font-family: 'cera_round_pro_demoregular';
 }
 .blog img{
+    width: 206px;
+    height: 283px;
     margin-bottom: 9px;
 }
 .blog article p:first-of-type{
@@ -758,6 +762,8 @@ header .dropdown .listdrop:hover svg path{
     right: -106px;
 }
 .join article img{
+    width: 77px;
+    height: 96px;
     margin-bottom: 15px;
 }
 .join article h4{
